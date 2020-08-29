@@ -1,6 +1,6 @@
 name: gallery_view
 description: A plugin for shwoing list of images in exactly looging in gallery view.
-version: 0.0.3
+version: 0.0.4
 homepage: https://github.com/nilay7798/image_gallery
 
 environment:
