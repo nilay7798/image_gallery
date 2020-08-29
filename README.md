@@ -13,7 +13,9 @@ Android and/or iOS.
 ## Usage
 To use this plugin, add `gallery_view` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
 
+
 ![The example app running in Android](https://github.com/nilay7798/image_gallery/blob/master/doc/gallery_view_demo.gif?raw=true)
+
 ### Example
 
 ``` dart
