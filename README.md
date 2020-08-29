@@ -11,14 +11,14 @@ Android and/or iOS.
 
 
 ## Usage
-To use this plugin, add `image_gallery` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
+To use this plugin, add `gallery_view` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
 
 
 ### Example
 
 ``` dart
 import 'package:flutter/material.dart';
-import 'package:image_gallery/image_gallery.dart';
+import 'package:gallery_view/gallery_view.dart';
 
 void main() {
   runApp(MaterialApp(
