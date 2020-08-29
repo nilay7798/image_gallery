@@ -8,15 +8,6 @@ A new plugin to show the list of network image and show it in a gallery view wit
     3. User able to zoom into image and swipe left and right to swipe between images.
     5. Also showing loading icon while image is loading from url.
 
-### More screenshots
-
-![The example app running in Android](https://github.com/nilay7798/image_gallery/blob/master/doc/gallery_view_demo.gif?raw=true)
-
-| **Image Gallery View** | **View Image** | **Hero animation** |
-| ![In action](https://github.com/nilay7798/image_gallery/blob/master/doc/gallery_view.png) | ![In action](https://github.com/nilay7798/image_gallery/blob/master/doc/view_photo.png) | ![In action](https://github.com/nilay7798/image_gallery/blob/master/doc/hero_animation.png) |
-
-## Usage
-To use this plugin, add `gallery_view` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
 
 ### Example
 
@@ -41,5 +32,17 @@ void main() {
 
 
 ```
+
+![The example app running in Android](https://github.com/nilay7798/image_gallery/blob/master/doc/gallery_view_demo.gif?raw=true)
+
+### More screenshots
+
+
+| **Image Gallery View** | **View Image** | **Hero animation** |
+| ------------- | ------------- | ------------- |
+| ![In action](https://github.com/nilay7798/image_gallery/blob/master/doc/gallery_view.png) | ![In action](https://github.com/nilay7798/image_gallery/blob/master/doc/view_photo.png) | ![In action](https://github.com/nilay7798/image_gallery/blob/master/doc/hero_animation.png) |
+
+## Usage
+To use this plugin, add `gallery_view` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
 
 
