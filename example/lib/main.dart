@@ -58,7 +58,6 @@ class _MyAppState extends State<MyApp> {
           "https://images.unsplash.com/photo-1525355563566-fa1e9933bf6a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
           "https://images.unsplash.com/photo-1506222761176-7f60d01a7cb9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
           "https://images.unsplash.com/photo-1507088523122-b05a4b947d0f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
-          ""
         ]),
       ),
     );

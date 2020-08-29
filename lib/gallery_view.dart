@@ -23,9 +23,6 @@ class GalleryView extends StatelessWidget {
   Widget build(BuildContext context) {
     // TODO: implement build
     return Scaffold(
-      appBar: AppBar(
-        title: Text("Gallery"),
-      ),
       backgroundColor: Colors.grey.shade300,
       body: Padding(
         padding: const EdgeInsets.all(8.0),
