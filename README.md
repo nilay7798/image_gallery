@@ -6,7 +6,7 @@ A new plugin to show the list of network image and show it in a gallery view wit
     1. Show user list of network image using urls in gallery view
     2. Added Hero animation for smooth transition effect.
     3. User able to zoom into image and swipe left and right to swipe between images.
-    5. Also showing loading icon while image is loading from url.
+    4. Also showing loading icon while image is loading from url.
 
 
 ### Example
