@@ -7,15 +7,16 @@ class ViewPhotos extends StatefulWidget {
   final String heroTitle;
   final imageIndex;
   final List<dynamic> imageList;
-  ViewPhotos({this.imageIndex, this.imageList, this.heroTitle = "img"});
+  ViewPhotos(
+      {this.imageIndex, required this.imageList, this.heroTitle = "img"});
 
   @override
   _ViewPhotosState createState() => _ViewPhotosState();
 }
 
 class _ViewPhotosState extends State<ViewPhotos> {
-  PageController pageController;
-  int currentIndex;
+  PageController? pageController;
+  int? currentIndex;
   @override
   void initState() {
     // TODO: implement initState
@@ -36,7 +37,7 @@ class _ViewPhotosState extends State<ViewPhotos> {
       backgroundColor: Colors.black,
       appBar: AppBar(
         title: Text(
-          "${currentIndex + 1} out of ${widget.imageList.length}",
+          "${currentIndex! + 1} out of ${widget.imageList.length}",
           style: TextStyle(color: Colors.white),
         ),
         actions: [
@@ -77,7 +78,7 @@ class _ViewPhotosState extends State<ViewPhotos> {
                   value: progress == null
                       ? null
                       : progress.cumulativeBytesLoaded /
-                          progress.expectedTotalBytes,
+                          progress.expectedTotalBytes!.toInt(),
                 ),
               ),
             ),

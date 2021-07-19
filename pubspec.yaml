@@ -1,17 +1,17 @@
 name: gallery_view
 description: A plugin for shwoing list of images in exactly looging in gallery view.
-version: 0.0.4
+version: 1.0.0+1
 homepage: https://github.com/nilay7798/image_gallery
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
+  sdk: ">=2.12.0 <3.0.0"
   flutter: ">=1.20.0 <2.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  cached_network_image: ^2.2.0+1
-  photo_view: ^0.9.2
+  cached_network_image: ^3.1.0
+  photo_view: ^0.11.1
 
 dev_dependencies:
   flutter_test:
