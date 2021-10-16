@@ -12,3 +12,9 @@
 ## 0.0.4
     Updated README.
     Added GIF for same.
+    
+## 1.0.0
+    Added Null-safety.
+    
+## 1.0.0+1
+    Upgraded All the depedencies.
