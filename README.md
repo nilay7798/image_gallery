@@ -1,4 +1,4 @@
-# Image Gallery View
+# Image Gallery View Widget
 A new plugin to show the list of network image and show it in a gallery view with hero animation
 
 
