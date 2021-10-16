@@ -35,9 +35,6 @@ flutter:
       ios:
         pluginClass: GalleryViewPlugin
 
-  # To add assets to your plugin package, add an assets section, like this:
-
-
  
 
   # To add custom fonts to your plugin package, add a fonts section here,
