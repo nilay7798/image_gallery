@@ -10,7 +10,7 @@ class GalleryView extends StatelessWidget {
   final List<String> imageUrlList;
   final int crossAxisCount;
   const GalleryView(
-      {required Key key, required this.imageUrlList, this.crossAxisCount = 3});
+      {Key key, required this.imageUrlList, this.crossAxisCount = 3});
 
   static const MethodChannel _channel = const MethodChannel('gallery_view');
 
